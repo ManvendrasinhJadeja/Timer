@@ -4,6 +4,7 @@ let display = document.getElementById("display")
 
 let totalSec,totalMin,currSecond,inter;
 btn.addEventListener("click",function(e){
+    e.preventDefault();
     display.innerText="00:00";
     display.style.fontSize="7rem"
     totalSec=0
