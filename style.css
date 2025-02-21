@@ -80,3 +80,27 @@ body {
     padding: 20px;
     border: 30px solid #343638;
 }
+.modal{
+    width: 400px;
+    height: 250px;
+    background-color: #2d2f31;
+    color: white;
+    position: absolute;
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.modal button{
+    height: 30px;
+
+}
